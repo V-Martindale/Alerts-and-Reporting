@@ -1,0 +1,6 @@
+# Default-Deny Commands
+
+sudo ufw default deny incoming : Denys all incoming traffic
+sudo ufw default deny outgoing : Denys all outgoing traffic
+
+From here it is easy to pick and choose which ports are open and which ips may access them.
