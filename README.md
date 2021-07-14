@@ -18,9 +18,9 @@ Further monitoring revealed malicious activity coming from employee ip addresses
 # Hardenning
 The following methods were suggested to harden the networks security:
 
-Nmap Scan: To prevent an Nmap scan a default-deny rule should be implemented to deny all outside access except to allowed ports( Default-Deny for commands).
+Nmap Scan: To prevent an Nmap scan a default-deny rule should be implemented to deny all outside access except to allowed ports(see Hardening/Default-Deny for commands).
 
-WordPress Enumeration: In order to protect against WordPress enumeration changes need to be made to the functions.php file(See Functions.php)
+WordPress Enumeration: In order to protect against WordPress enumeration changes need to be made to the functions.php file(See Hardening/Functions.php )
 
 Unprotected and Unsalted Hashes : In order to increase the strength of passwords requirements can be more strict such as requiring upper and lowercase numbers, numbers, characters, length, etc. In order to make hashes stronger it is suggested to salt them with such websites as https://www.symbionts.de/tools/hash/sha256-hash-salt-generator.html. 
 
